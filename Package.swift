@@ -20,7 +20,8 @@ let package = Package(
     .target(
       name: "RxCocoa-CHTexture",
       dependencies: [
-        .product(name: "AsyncDisplayKit", package: "RxSwift"),
+        .product(name: "AsyncDisplayKit", package: "Texture"),
+        .product(name: "RxCocoa", package: "RxSwift"),
         "RxSwift"
       ],
       path: "RxCocoa-Texture/Classes"
