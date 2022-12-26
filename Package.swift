@@ -24,7 +24,7 @@ let package = Package(
         .product(name: "RxCocoa", package: "RxSwift"),
         "RxSwift"
       ],
-      path: "RxCocoa-Texture/Classes"
+      path: "RxCocoa-Texture/"
     ),
   ]
 )
